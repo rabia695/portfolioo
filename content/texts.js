@@ -149,7 +149,7 @@ window.TEXTS = {
       },
       max: {
         name: 'Расширенный',
-        price: '310 000 ₽',
+        price: '360 000 ₽',
         terms: '11–12 недель · 2 раунда правок',
         fit: 'Когда хочется выбрать из нескольких идей и закрыть всё сразу.',
         base: 'Всё из базового',
@@ -164,7 +164,7 @@ window.TEXTS = {
         ]
       },
       cta: 'Обсудить',
-      diff: 'Шаг от минимального к базовому — 105 000 ₽. За них добавляются графическая система, носители под ваш бизнес, соцсети и гайдлайн. Шаг к расширенному — ещё 110 000 ₽: выбор из трёх концепций, анимация, сайт, печать и поддержка.',
+      diff: 'Шаг от минимального к базовому — 105 000 ₽. За них добавляются графическая система, носители под ваш бизнес, соцсети и гайдлайн. Шаг к расширенному — ещё 160 000 ₽: выбор из трёх концепций, анимация, сайт, печать и поддержка.',
       foot: 'Нужен не весь пакет, а отдельная задача? Составлю индивидуальную смету. Не знаете, какой пакет выбрать? Напишите, подберём на бесплатной консультации.'
     },
     process: {
@@ -383,7 +383,7 @@ window.TEXTS = {
       rec: 'I recommend',
       min: {
         name: 'Minimal',
-        price: '$1,500',
+        price: '$2,500',
         terms: '4 weeks · 1 round of revisions',
         fit: 'A tidy start: the mark, colours, type and first collateral.',
         items: [
@@ -397,7 +397,7 @@ window.TEXTS = {
       },
       base: {
         name: 'Core',
-        price: '$3,000',
+        price: '$4,500',
         terms: '7–8 weeks · 2 rounds of revisions',
         fit: 'The most common choice: the brand is ready to launch as a whole.',
         base: 'Everything in Minimal',
@@ -413,7 +413,7 @@ window.TEXTS = {
       },
       max: {
         name: 'Extended',
-        price: '$4,500',
+        price: '$6,500',
         terms: '11–12 weeks · 2 rounds of revisions',
         fit: 'When you want to choose between ideas and cover everything at once.',
         base: 'Everything in Core',
@@ -428,7 +428,7 @@ window.TEXTS = {
         ]
       },
       cta: 'Discuss',
-      diff: 'The step from Minimal to Core is $1,500. It adds supporting graphics, collateral for your business, social media and the guidelines. The step to Extended is another $1,500: three concepts to choose from, animation, the website concept, print supervision and support.',
+      diff: 'The step from Minimal to Core is $2,000. It adds supporting graphics, collateral for your business, social media and the guidelines. The step to Extended is another $2,000: three concepts to choose from, animation, the website concept, print supervision and support.',
       foot: 'Need one specific thing rather than a whole package? I will prepare a custom quote. Not sure which package to choose? Write to me and we will work it out at the free consultation.'
     },
     process: {
@@ -524,6 +524,7 @@ window.TEXTS = {
       inn: 'INN (tax ID)',
       ogrnip: 'OGRNIP (registration no.)',
       address: 'Address',
+      addressValue: 'Moscow',
       email: 'Email',
       contract: 'I work under a contract and a commercial proposal',
       offer: 'Information on this site is not a public offer',

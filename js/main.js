@@ -535,7 +535,7 @@
           a.href = 'mailto:' + L.email;
           node.appendChild(a);
         } else {
-          node.appendChild(document.createTextNode(L[p[1]]));
+          node.appendChild(document.createTextNode((p[1] === 'address' && tr('footer.addressValue')) || L[p[1]]));
         }
       } else if (S.showPlaceholders) {
         node.hidden = false;
