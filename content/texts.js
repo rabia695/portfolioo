@@ -11,7 +11,7 @@ window.TEXTS = {
     },
     skip: 'К содержимому',
     nav: {
-      home: 'Rabia Takhiri, в начало страницы',
+      home: 'Rabia Tathiri, в начало страницы',
       projects: 'Проекты',
       services: 'Услуги',
       process: 'Как мы работаем',
@@ -23,8 +23,9 @@ window.TEXTS = {
       lang: 'Язык сайта'
     },
     hero: {
-      title: 'Фирменный стиль,\nа не только логотип',
-      lead: 'Делаю бренд целиком: от исследования до брендбука.',
+      title: 'Логотип есть,\nа бренда нет?',
+      lead: 'Так бывает, когда нарисовали знак, а остальное не продумали: в соцсетях одно, на упаковке другое, в презентации третье. Фирменный стиль собирает цвета, шрифты, графику и носители в одну систему, которой легко пользоваться самому. Пример — кейс «Кинни».',
+      checks: ['Знак|Логотип и его версии', 'Цвет|Палитра бренда', 'Шрифт|Основной и дополнительный', 'Графика|Иллюстрации и иконки', 'Носители|Упаковка, реклама, соцсети', 'Правила|Брендбук'],
       cta: 'Обсудить проект',
       note: 'Напишите в Telegram, смету пришлю после разговора.',
       demo: {
@@ -41,10 +42,6 @@ window.TEXTS = {
     },
     identity: {
       title: 'Как рождается\nфирменный стиль',
-      blockTitle: 'Логотип есть,\nа бренда нет?',
-      intro: 'Так бывает, когда нарисовали знак, а остальное не продумали: в соцсетях одно, на упаковке другое, в презентации третье. Фирменный стиль собирает цвета, шрифты, графику и носители в одну систему, которой легко пользоваться самому. Пример — кейс «Кинни».',
-      checks: ['Знак|Логотип и его версии', 'Цвет|Палитра бренда', 'Шрифт|Основной и дополнительный', 'Графика|Иллюстрации и иконки', 'Носители|Упаковка, реклама, соцсети', 'Правила|Брендбук'],
-      blockAlt: 'Коробка с фирменным стилем Кинни в руках',
       more: 'Смотреть кейс «Кинни»',
       lead: 'На примере бренда «Кинни» показываю, как я работаю: от первой идеи до готового брендбука.',
       leadTag: 'Мой кейс',
@@ -67,7 +64,7 @@ window.TEXTS = {
       collatAlt: 'Кинни: носитель фирменного стиля'
     },
     casePage: {
-      docTitle: 'Rabia Takhiri',
+      docTitle: 'Rabia Tathiri',
       back: '← Все проекты',
       cta: 'Обсудить проект',
       allProjects: '← Все проекты',
@@ -278,7 +275,7 @@ window.TEXTS = {
     },
     skip: 'Skip to content',
     nav: {
-      home: 'Rabia Takhiri, back to top',
+      home: 'Rabia Tathiri, back to top',
       projects: 'Projects',
       services: 'Services',
       process: 'How we work',
@@ -290,8 +287,9 @@ window.TEXTS = {
       lang: 'Site language'
     },
     hero: {
-      title: 'A brand identity,\nnot just a logo',
-      lead: 'I build the whole brand, from research to the brand book.',
+      title: 'You have a logo,\nbut not a brand?',
+      lead: 'It happens when a mark is drawn and nothing else is thought through: one look on social media, another on the packaging, a third in the presentation. A brand identity brings colours, typefaces, graphics and collateral into one system that is easy to use on your own. See it in the Kinni case.',
+      checks: ['Mark|The logo and its versions', 'Colour|The brand palette', 'Type|Primary and secondary', 'Graphics|Illustrations and icons', 'Collateral|Packaging, advertising, social media', 'Rules|The brand book'],
       cta: 'Discuss a project',
       note: 'Message me on Telegram. I will send a quote after we talk.',
       demo: {
@@ -308,10 +306,6 @@ window.TEXTS = {
     },
     identity: {
       title: 'How a brand\nidentity is made',
-      blockTitle: 'You have a logo,\nbut not a brand?',
-      intro: 'It happens when a mark is drawn and nothing else is thought through: one look on social media, another on the packaging, a third in the presentation. A brand identity brings colours, typefaces, graphics and collateral into one system that is easy to use on your own. See it in the Kinni case.',
-      checks: ['Mark|The logo and its versions', 'Colour|The brand palette', 'Type|Primary and secondary', 'Graphics|Illustrations and icons', 'Collateral|Packaging, advertising, social media', 'Rules|The brand book'],
-      blockAlt: 'A box with the Kinni brand identity held in hands',
       more: 'View the Kinni case',
       lead: 'Using the Kinni brand, I show how I work: from the first idea to a finished brand book.',
       leadTag: 'My case study',
@@ -334,7 +328,7 @@ window.TEXTS = {
       collatAlt: 'Kinni: a brand identity collateral piece'
     },
     casePage: {
-      docTitle: 'Rabia Takhiri',
+      docTitle: 'Rabia Tathiri',
       back: '← All projects',
       cta: 'Discuss a project',
       allProjects: '← All projects',
@@ -526,7 +520,7 @@ window.TEXTS = {
       linksTitle: 'Find me',
       workTitle: 'Legal',
       top: 'Back to top',
-      name: 'Individual entrepreneur: Takhiri Rabia',
+      name: 'Individual entrepreneur: Tathiri Rabia',
       inn: 'INN (tax ID)',
       ogrnip: 'OGRNIP (registration no.)',
       address: 'Address',
@@ -534,7 +528,7 @@ window.TEXTS = {
       contract: 'I work under a contract and a commercial proposal',
       offer: 'Information on this site is not a public offer',
       privacy: 'Personal data policy (in Russian)',
-      copy: '© 2026 Sole proprietor Takhiri Rabia. All rights reserved.'
+      copy: '© 2026 Sole proprietor Tathiri Rabia. All rights reserved.'
     }
   }
 };

@@ -7,7 +7,7 @@ window.KINNI = {
   heroPos: { 'bb-37.webp': '0% 50%' },
   /* носители для страницы кейса: из брендбука, в порядке показа */
   collateral: ['bb-36.webp', 'bb-35.webp', 'bb-37.webp', 'bb-41.webp', 'bb-42.webp', 'bb-38.webp', 'bb-39.webp', 'bb-40.webp', 'bb-43.webp'],
-  hero: ['bb-41.webp', 'bb-37.webp', 'bb-42.webp', 'bb-43.webp', 'bb-36.webp'],
+  hero: ['bb-36.webp', 'bb-37.webp', 'bb-42.webp', 'bb-43.webp', 'bb-39.webp'],
   presentation: [
     'pr-01.webp',
     'pr-02.webp',

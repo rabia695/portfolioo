@@ -869,16 +869,18 @@ body.lb-open { overflow: hidden; }
 .kcollat { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 40px 0; }
 @media (max-width: 760px) { .case .kinfo:not(.kinfo--one) { grid-template-columns: minmax(0, 1fr); } .kcollat { grid-template-columns: minmax(0, 1fr); } }
 
-/* ---------- блок «Логотип есть, а бренда нет?» ---------- */
-.sysblock { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(28px, 4vw, 56px); align-items: start; margin-bottom: clamp(20px, 2.5vw, 32px); }
-.sysblock h3 { font-family: var(--display); font-weight: 400; text-transform: uppercase; font-size: clamp(28px, 3.4vw, 44px); line-height: 1.1; margin: 0 0 20px; white-space: pre-line; text-wrap: balance; }
-.sysblock-lead { margin: 0 0 28px; font-size: 18px; line-height: 1.6; max-width: 56ch; }
-.syschecks { list-style: none; margin: 0 0 32px; padding: 0; }
-.syschecks li { display: flex; gap: 14px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 17px; }
-.syschecks li:first-child { border-top: 1px solid var(--line); }
-.syschecks-k { flex: none; width: 96px; font-family: var(--mono); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
-.sysblock-pic { border-radius: var(--r-l); overflow: hidden; background: var(--line); }
-.sysblock-pic img { display: block; width: 100%; height: auto; }
-@media (max-width: 860px) { .sysblock { grid-template-columns: 1fr; } }
-.sysblock-pic { position: sticky; top: 104px; }
-@media (max-width: 860px) { .sysblock-pic { position: static; } }
+/* ---------- первый экран: «Логотип есть, а бренда нет?» ---------- */
+.hero { grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); align-items: stretch; }
+.hero-text { justify-content: flex-start; gap: 0; }
+.hero-text h1 { margin: 0 0 22px; font-size: clamp(26px, 2.9vw, 42px); }
+.hero-lead { margin: 0; font-size: 16px; line-height: 1.6; max-width: 46ch; }
+.hero-text .hero-bottom { margin-top: auto; }
+.hero-side { padding: clamp(14px, 1.6vw, 20px); display: flex; flex-direction: column; gap: clamp(14px, 1.6vw, 20px); }
+.hero-kinni { position: relative; overflow: hidden; min-height: 0; height: 0; padding-bottom: 56.25%; border-radius: var(--r-l); background: var(--bg); }
+.hero-kinni img { object-fit: contain; }
+.syschecks { list-style: none; margin: 0; padding: 0 clamp(6px, 1vw, 12px) clamp(6px, 1vw, 12px); display: grid; grid-template-columns: 1fr 1fr; column-gap: clamp(20px, 3vw, 40px); }
+.syschecks li { display: flex; flex-direction: column; gap: 2px; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 15px; line-height: 1.35; }
+.syschecks li:nth-child(-n+2) { border-top: 1px solid var(--line); }
+.syschecks-k { font-family: var(--mono); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+@media (max-width: 960px) { .hero { grid-template-columns: minmax(0, 1fr); } .hero-text .hero-bottom { margin-top: 28px; } }
+@media (max-width: 480px) { .syschecks { grid-template-columns: 1fr; } .syschecks li:nth-child(2) { border-top: 0; } }
